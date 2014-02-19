@@ -1,6 +1,6 @@
 {
   "name": "b64",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple Base64 methods (encode, decode) using Built In buffers. This means its just an abstraction and will be as reliable as nodejs buffers are.",
   "main": "index.js",
   "scripts": {
