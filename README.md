@@ -7,6 +7,8 @@ Simple Base64 methods using Built In buffers. This means its just an abstraction
 [![browser support](https://ci.testling.com/miketheprogrammer/b64.png)](https://ci.testling.com/miketheprogrammer/b64)
 
 
+npm install b64-utils
+
 This library is just a small quick stable library to clean up all the new Buffer( blah ).toString() blah.
 
 Works well for me especially when doing alot of b64 work with crypto, on enterprise api's where security is insane.
