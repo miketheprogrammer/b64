@@ -1,21 +1,3 @@
-b64
-===
-
-Simple Base64 methods using Built In buffers. This means its just an abstraction and will be as reliable as nodejs buffers are.
-
-
-[![browser support](https://ci.testling.com/miketheprogrammer/b64.png)](https://ci.testling.com/miketheprogrammer/b64)
-
-
-This library is just a small quick stable library to clean up all the new Buffer( blah ).toString() blah.
-
-Works well for me especially when doing alot of b64 work with crypto, on enterprise api's where security is insane.
-
-Tests are the documentation. Enjoy
-
-```javascript
-
-
 var test = require('tape');
 var b64 = require('./index');
 
@@ -59,5 +41,3 @@ test('Decoding Buffers should still work as expected', function(t) {
 
     t.equals(result, expect);
 })
-
-```
