@@ -63,3 +63,6 @@ test('Decoding Buffers should still work as expected', function(t) {
 })
 
 ```
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/miketheprogrammer/b64/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
